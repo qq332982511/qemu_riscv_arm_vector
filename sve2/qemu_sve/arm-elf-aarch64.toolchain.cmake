@@ -1,0 +1,8 @@
+set(TOOLCAIN_PREFIX "aarch64-none-elf")
+set(CMAKE_C_COMPILER "${TOOLCAIN_PREFIX}-gcc")
+set(CMAKE_CXX_COMPILER "${TOOLCAIN_PREFIX}-g++")
+set(CMAKE_C_FLAGS "-specs=nosys.specs  -march=armv8-a+sve ")
+set(CMAKE_CXX_FLAGS "-specs=nosys.specs  -march=armv8-a+sve ")
+set(CMAKE_STRIP "${TOOLCAIN_PREFIX}-strip")
+set(CMAKE_SYSTEM_PROCESSOR aarch64)
+set(CMAKE_SYSTEM_NAME Generic)

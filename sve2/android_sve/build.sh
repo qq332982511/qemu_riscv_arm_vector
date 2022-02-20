@@ -1,0 +1,1 @@
+/home/liujunjie/download/android_r23b/android-ndk-r23b/toolchains/llvm/prebuilt/linux-x86_64/bin/aarch64-linux-android23-clang++ test.cpp -march=armv8a+sve --std=c++14
